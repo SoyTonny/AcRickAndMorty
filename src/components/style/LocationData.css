@@ -1,0 +1,36 @@
+/* estilos de location */
+
+.location{
+    background-color: #072226;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .location__name{
+    color: #7cba24;
+    font-family: 'Creepster';
+  }
+  
+  .location__lista{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  
+  .location__element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+  }
+  
+  .location__element span:last-child {
+    color: #777;
+  }

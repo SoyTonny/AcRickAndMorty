@@ -1,0 +1,65 @@
+/* Estilos de ResidentCard */
+
+.card{
+    background-color: #072226;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.card__img{
+    position: relative;
+}
+
+.card__status{
+
+    background-color: #072226;
+    position: absolute;
+    top: 10%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 5px 5px 0;
+}
+  
+  
+.circulo{
+    background-color: gray;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+  
+  .Alive{
+    background-color: #039e04;
+  }
+  
+  .Dead{
+    background-color: red;
+  }
+  
+  .rayita{
+    border: 1px solid #7777;
+    width: 80%;
+    margin: 10px 25px;
+  }
+  
+  .card__lista{
+    padding-bottom: 30px;
+    width: 80%;
+  }
+  
+  .lista__element{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lista__element span:first-child{
+    padding-left: 20px;
+    color: gray;
+  }
+  

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+*,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: 'Teko';
+   background-color: #05292e;
+   color: #fff;
+   margin: 0;
+   padding-bottom: 20px;
+ }
+
+ img {
+   display: inline-block;
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+ }
+
+ input,
+ button {
+   display: inline-block;
+   cursor: pointer;
+   font-family: inherit;
+   height: 20px;
+   text-align: center;
+ }
+
+ button {
+   border: none;
+   padding: 0 15px;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ a {
+   text-decoration: none;
+   color: dodgerblue
+ }
+
+ /* resto del seteo*/
+ .app {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 100vh;
+ }
+
+ .app__container {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   gap: 20px;
+   justify-content: space-evenly;
+ }
+
+ .app__form {
+   margin: 20px 0;
+   display: flex;
+   align-items: center;
+ }
+
+ .app__input {
+   border-radius: 5px 0 0 5px;
+ }
+
+ .app__btn {
+   background-color: #71ab21;
+   color: white;
+   border-radius: 0 5px 5px 0;
+ }
+
+ .app__btn:hover {
+   filter: brightness(1.1);
+ }
+
+
+ .pagination {
+   margin-top: 12px;
+   gap: 50px;
+ }
+
+ .pagination button {
+   background-color: #6fb907;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   margin: 10px 5px;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: .3s;
+ }
+
+ .pagination button:first-child{
+  background-color: #172701;
+ }
+
+ .pagination button:last-child{
+  background-color: #172701;
+ }
+
+
+ .pagination button:hover {
+   filter: brightness(1.1);
+ }
+
+ .pagination span {
+   margin: 15px
+ }
+
+ .navbar__img{
+  width: 100%;
+ }
