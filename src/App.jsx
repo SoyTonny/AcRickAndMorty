@@ -53,7 +53,7 @@ function App () {
         <div className='app'>
           <img src='.\assets\fondeRick.webp' alt='Navbar' className='navbar__img' />
           <form className='app__form' onSubmit={handleSubmit}>
-            <input className='app__input' type="text" ref={textInput} />
+            <input className='app__input' type="text" ref={textInput} placeholder='Ingresa un numero' />
             <button className='app__btn'>Search location</button>
           </form>
           {hasError || inputValue === '0' ? (
